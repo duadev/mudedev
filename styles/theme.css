@@ -7,7 +7,7 @@ p {
 }
 
 .title {
-    color: rgb(3, 27, 78);
+    color: rgb(33, 53, 71);
     font-family: Epilogue, sans-serif !important;
     font-size: 40px;
     font-style: normal;
@@ -19,8 +19,8 @@ p {
     word-break: break-word;
 }
 
-.text-titulo {
-    color: rgb(3, 27, 78);
+.text-titulo,tag{
+    color: rgb(33, 53, 71);
     font-family: Epilogue, sans-serif !important;
     font-size: 20px;
     font-style: normal;
@@ -30,4 +30,18 @@ p {
     margin: 0px;
     padding: 0px;
     word-break: break-word;
+}
+
+.bg-white{
+    background-color: #f3f4f6 !important;
+}
+
+.btn-dark{
+    background-color: rgb(33, 53, 71) !important;
+    border-color: #4d5b7c !important;
+}
+
+.text-dark{
+    color: rgb(33, 53, 71) !important;
+    font-family: Epilogue, sans-serif !important;
 }

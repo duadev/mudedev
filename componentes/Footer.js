@@ -24,7 +24,7 @@ export const Footer = () => {
                         </div>
 
                         <div className="p-2">
-                            <Image src={vercel} alt="Hosting by vercel" height={50} width={150} />
+                            <Image src={vercel} alt="Hosting by vercel" height={60} width={148} />
                         </div>
 
                         <p>Powered by <a href="https://nextjs.org/" className="text-dark">next JS</a> - a blogging community for software developers.</p>

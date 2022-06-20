@@ -31,7 +31,7 @@ export const Index = () => {
   return (
     <>
       <Head>
-          <title>Mudex - Bloggin</title>
+          <title>Mudex - Blogging</title>
           <meta name="description" content="Bloggin - Home" />
       </Head>
 
