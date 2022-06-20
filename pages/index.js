@@ -31,12 +31,8 @@ export const Index = () => {
   return (
     <>
       <Head>
-        <Head>
           <title>Mudex - Bloggin</title>
           <meta name="description" content="Bloggin - Home" />
-
-        </Head>
-
       </Head>
 
       <LayoutArticle>

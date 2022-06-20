@@ -4,7 +4,6 @@ import Footer from './Footer'
 export const LayoutArticle = ({ children }) => {
     return (
         <>
-          
             <section>
                 <div className="py-6 bg-white">
                     <div className="container">
