@@ -4,11 +4,11 @@ import Head from 'next/Head'
 export const LayoutArticle = ({ children }) => {
     return (
         <>
-<Head>
-    <title>Mudex - Bloggin - Home</title>
-    <meta name="description" content="Bloggin - Home" />
+            <Head>
+                <title>Mudex - Bloggin - Home</title>
+                <meta name="description" content="Bloggin - Home" />
 
-</Head>
+            </Head>
             <section>
                 <div className="py-6 bg-white">
                     <div className="container">

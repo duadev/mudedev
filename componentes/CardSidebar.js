@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import Blog from '../public/img/images-body-2.jpg'
+import Blog from '../public/img/imagen-body-2.jpg'
 
-export const CardSidebar = (props) => {
+export const CardSidebar = ({tag,tituloCard,parrafo}) => {
     return (
 
         <div className="col-lg-4 col-md-5 col-12 mt-6 mt-md-0">
@@ -15,14 +15,14 @@ export const CardSidebar = (props) => {
                         </a>
 
                         <div className="card-body">
-                            <a href="#" className="fs-5 fw-semi-bold d-block  text-dark">{props.tag}</a>
+                            <a href="#" className="fs-5 fw-semi-bold d-block  text-dark">{tag}</a>
                             <h1 className='fs-5 '>
-                                <p href="#" className="text-dark">{props.tituloCard}</p>
+                                <p href="#" className="text-dark">{tituloCard}</p>
                             </h1>
-                            <p>{props.parrafo}</p>
+                            <p>{parrafo}</p>
 
                             <div className="d-grid gap-2">
-                                <a href={'#'} className="btn btn-dark btn-xs> <Link ">{props.leerMas}</a>
+                                <Link href='#'><a className='btn btn-dark btn-xs'>Leer mas</a></Link>
                             </div>
                         </div>
                     </div>
