@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Blog from '../public/img/imagen-body-2.jpg'
 
-export const CardSidebar = ({tag,tituloCard,parrafo}) => {
+export const CardSidebar = ({tag,titulo,parrafo}) => {
     return (
 
         <div className="col-lg-4 col-md-5 col-12 mt-6 mt-md-0">
@@ -17,7 +17,7 @@ export const CardSidebar = ({tag,tituloCard,parrafo}) => {
                         <div className="card-body">
                             <a href="#" className="fs-5 fw-semi-bold d-block  text-dark">{tag}</a>
                             <h1 className='fs-5 '>
-                                <p href="#" className="text-dark">{tituloCard}</p>
+                                <p className="text-dark">{titulo}</p>
                             </h1>
                             <p>{parrafo}</p>
 
