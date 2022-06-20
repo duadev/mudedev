@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Blog from '../public/img/plugins-for-vscode.svg'
 
-export const CardBody = ({ titulo, parrafo1, parrafo2, parrafo3 }) => {
+export const Main = ({ titulo, parrafo1, parrafo2, parrafo3 }) => {
     return (
 
         <div className="col-xl-8 col-lg-8 col-md-12 col-12">
@@ -12,7 +12,7 @@ export const CardBody = ({ titulo, parrafo1, parrafo2, parrafo3 }) => {
 
                 <div className="container pt-2">
                     <div className="row">
-                        <h1 className="display-3">{titulo}</h1>
+                        <h1 className="title">{titulo}</h1>
                     </div>
                 </div>
 
@@ -28,4 +28,4 @@ export const CardBody = ({ titulo, parrafo1, parrafo2, parrafo3 }) => {
 
     )
 }
-export default CardBody
+export default Main

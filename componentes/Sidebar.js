@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Blog from '../public/img/imagen-body-2.jpg'
 
-export const CardSidebar = ({tag,titulo,parrafo}) => {
+export const Sidebar = ({tag,titulo,parrafo}) => {
     return (
 
         <div className="col-lg-4 col-md-5 col-12 mt-6 mt-md-0">
@@ -15,9 +15,9 @@ export const CardSidebar = ({tag,titulo,parrafo}) => {
                         </a>
 
                         <div className="card-body">
-                            <a href="#" className="fs-5 fw-semi-bold d-block  text-dark">{tag}</a>
-                            <h1 className='fs-5 '>
-                                <p className="text-dark">{titulo}</p>
+                            <Link href="#"><a className="fs-5 fw-semi-bold d-block mb-3 text-dark">{tag}</a></Link>
+                            <h1>
+                                <p className="text-titulo">{titulo}</p>
                             </h1>
                             <p>{parrafo}</p>
 
@@ -50,4 +50,4 @@ export const CardSidebar = ({tag,titulo,parrafo}) => {
     )
 
 }
-export default CardSidebar
+export default Sidebar
