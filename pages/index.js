@@ -1,11 +1,10 @@
+import Head from 'next/head'
 import LayoutArticle from '../componentes/Layout'
 import Main from '../componentes/Main'
 import Sidebar from '../componentes/Sidebar'
-import Head from 'next/head'
 
 export const Index = () => {
 
-  const img = '2'
   const Article = [
 
     {
@@ -20,9 +19,9 @@ export const Index = () => {
 
   const Sidebars = [
     {
-      tag: 'business',
-      titulo: 'Visual Studio Code how to configure plugins',
-      parrafo: 'lorem ipsum dolor sit amet,  in reprehenderit in voluptate velit ess',
+      tag: 'CyberSecurity',
+      titulo: 'Que es la Ingenieria Social?',
+      parrafo: ' La ingeniería social es el arte de convencer a una persona de proveer información..',
 
     }
 
@@ -41,7 +40,6 @@ export const Index = () => {
           Article.map((item, i) => (
             <Main
               key={i}
-            
               titulo={item.titulo}
               parrafo1={item.parrafo1}
               parrafo2={item.parrafo2}
@@ -56,7 +54,6 @@ export const Index = () => {
               key={i}
               tag={item.tag}
               titulo={item.titulo}
-              tituloCard={item.tituloCard}
               parrafo={item.parrafo}
             />
           ))

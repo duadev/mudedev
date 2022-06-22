@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import Blog from '../public/img/imagen-body-2.jpg'
+
 
 export const Sidebar = ({tag,titulo,parrafo}) => {
     return (
@@ -10,9 +10,9 @@ export const Sidebar = ({tag,titulo,parrafo}) => {
 
                 <div className="col-lg-10 col-md-6 col-12">
                     <div className="card mb-4 shadow ">
-                        <a href="#" className="card-img-top">
-                            <Image src={Blog} className="card-img-top" alt="card tech" priority layout='responsive' />
-                        </a>
+                        <p className="card-img-top">
+                            <Image src='/imagen-body-2.jpg' className="card-img-top" alt="card tech" width='928' height='498' layout='responsive' />
+                        </p>
 
                         <div className="card-body">
                             <Link href="#"><a className="fs-5 fw-semi-bold d-block mb-3 text-titulo">{tag}</a></Link>
@@ -22,7 +22,7 @@ export const Sidebar = ({tag,titulo,parrafo}) => {
                             <p>{parrafo}</p>
 
                             <div className="d-grid gap-2">
-                                <Link href='#'><a className='btn btn-dark btn-xs '>Leer mas</a></Link>
+                                <Link href='/cybersecurity/que-es-la-ingenieria-social'><a className='btn btn-dark btn-xs '>Leer mas</a></Link>
                             </div>
                         </div>
                     </div>
