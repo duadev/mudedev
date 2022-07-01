@@ -19,7 +19,8 @@ p {
     word-break: break-word;
 }
 
-.text-titulo,tag{
+.text-titulo,
+tag {
     color: rgb(33, 53, 71);
     font-family: Epilogue, sans-serif !important;
     font-size: 20px;
@@ -32,16 +33,38 @@ p {
     word-break: break-word;
 }
 
-.bg-white{
+
+.bg-white {
     background-color: #f3f4f6 !important;
 }
 
-.btn-dark{
+.bg-dark {
+    background-color: #1a202c !important;
+}
+
+.btn-dark {
     background-color: rgb(33, 53, 71) !important;
     border-color: #4d5b7c !important;
 }
 
-.text-dark{
+.bg-gray{
+    background-color: #2E3440;
+}
+
+.text-dark {
     color: rgb(33, 53, 71) !important;
     font-family: Epilogue, sans-serif !important;
+}
+
+.hovers:hover {
+    border-radius: 5px;
+    border: 2px solid #4d5b7c;
+
+}
+
+
+.btn-light-primary{
+    color: #f3f4f6;
+    background-color: #3B4252;
+    height: 40px;
 }

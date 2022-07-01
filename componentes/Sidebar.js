@@ -34,10 +34,10 @@ export const Sidebar = ({tag,titulo,parrafo}) => {
                             <h2 className='text-titulo'>Tags</h2>
                             <div className="mt-3">
                                 <a href="#" className="btn btn-light btn-xs  mb-2">business</a>
-                                <a href="#" className="btn btn-light btn-xs  mb-2">e-commerce</a>
-                                <a href="#" className="btn btn-light btn-xs  mb-2">course</a>
-                                <a href="#" className="btn btn-light btn-xs  mb-2">dashboard</a>
-                                <a href="#" className="btn btn-light btn-xs  mb-2">landings</a>
+                                <a href="#" className="btn btn-light btn-xs  m-1">e-commerce</a>
+                                <a href="#" className="btn btn-light btn-xs  m-2">course</a>
+                                <a href="#" className="btn btn-light btn-xs  m-2">dashboard</a>
+                                <a href="#" className="btn btn-light btn-xs  m-2">landings</a>
                                 <a href="#" className="btn btn-light btn-xs  mb-2">marketing</a>
                             </div>
                         </div>
