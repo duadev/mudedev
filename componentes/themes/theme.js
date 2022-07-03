@@ -11,10 +11,9 @@ export const Theme = ({ nombre, by, imagenid }) => {
             <div className='mb-4'>
 
                 <div className='hovers'>
-                    <Image src={imagenid} alt='alt' width={100} height={100} layout='responsive' priority className='hovers rounded-top-md ' />
+                    <Image src={imagenid} alt='alt' width={100} height={100} layout='responsive' priority className='hovers' />
 
                 </div>
-
 
                 <div className='m-2'>
 

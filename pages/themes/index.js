@@ -8,22 +8,18 @@ export const Index = () => {
  
   const theme = [
     {
-      imagenid: `/code-1.svg`,
+      imagenid: `/themes/nord/nord.svg`,
       nombre: 'Nord',
       by: 'arcticicestudio'
     },
+  
     {
-      imagenid: `/code-0.svg`,
-      nombre: 'One dark Pro',
+      imagenid: `/themes/atom/atom-one-dark.svg`,
+      nombre: 'Atom-one-dark',
       by: 'Mahmoud Ali'
     },
     {
-      imagenid: `/code-1.svg`,
-      nombre: 'One Monokai Theme',
-      by: 'Joshua Azemoh'
-    },
-    {
-      imagenid: `/code-1.svg`,
+      imagenid: `/themes/one-dark/one-dark-pro.svg`,
       nombre: 'One Monokai Theme',
       by: 'Joshua Azemoh'
     }
@@ -34,10 +30,10 @@ export const Index = () => {
     <>
 
       <Head>
-        <title>The best themes for visual code 2023</title>
+        <title>themes dark for visual code 2022</title>
       </Head>
 
-      <div className='bg-gray'>
+      <div className='bg-dark'>
         <div className='py-8'>
           <div className='container'>
             <div className='row'>

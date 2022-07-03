@@ -68,3 +68,7 @@ tag {
     background-color: #3B4252;
     height: 40px;
 }
+
+.border-radius-img{
+    border-radius: 6px;
+}
