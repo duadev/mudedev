@@ -2,7 +2,8 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 
-export const Theme = ({ nombre, by, imagenid }) => {
+
+export const Index = ({ nombre, by, imagenid }) => {
 
     return (
 
@@ -15,10 +16,11 @@ export const Theme = ({ nombre, by, imagenid }) => {
 
                 </div>
 
+
                 <div className='m-2'>
 
                     <h2>
-                        <Link href='/themes/post' className='fs-5 fw-semi-bold d-block text-success'>
+                        <Link href='/themes/nord' className='fs-5 fw-semi-bold d-block text-success'>
                             <a className='text-white'>{nombre}</a>
                         </Link>
                     </h2>
@@ -36,5 +38,5 @@ export const Theme = ({ nombre, by, imagenid }) => {
     )
 }
 
-export default Theme
+export default Index
 

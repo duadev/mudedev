@@ -1,18 +1,20 @@
 import React from 'react'
-import Themes from '/componentes/themes/theme'
+import Themes from '/componentes/themes/index'
 import Head from 'next/head'
+
 
 
 export const Index = () => {
 
- 
-  const theme = [
+
+  const darktheme = [
     {
       imagenid: `/themes/nord/nord.svg`,
       nombre: 'Nord',
       by: 'arcticicestudio'
+
     },
-  
+
     {
       imagenid: `/themes/atom/atom-one-dark.svg`,
       nombre: 'Atom-one-dark',
@@ -23,9 +25,9 @@ export const Index = () => {
       nombre: 'One Monokai Theme',
       by: 'Joshua Azemoh'
     }
-   
+
   ]
-  console.log(theme)
+
   return (
     <>
 
@@ -39,14 +41,18 @@ export const Index = () => {
             <div className='row'>
 
               {
-                theme.map((item, i) => (
+                darktheme.map((item, i) => (
 
-                  <Themes
-                    key={i}
-                    imagenid={item.imagenid}
-                    nombre={item.nombre}
-                    by={item.by}
-                  />
+                  <>
+                 
+                    <Themes
+                      key={i}
+                      imagenid={item.imagenid}
+                      nombre={item.nombre}
+                      by={item.by}
+                    />
+
+                  </>
 
                 ))
               }
